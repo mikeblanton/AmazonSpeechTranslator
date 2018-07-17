@@ -48,9 +48,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // ###Cognito Identity Pool###
         let cognitoCredentialProvider = AWSCognitoCredentialsProvider(regionType: AWSRegionType.USWest2,
-                                        identityPoolId: "us-west-2:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
-                                        unauthRoleArn: "arn:aws:iam::xxxxxxxxxxxx:role/speechtranslator-stack-UnAuthenticatedRole-1KGJEHDISDWF",
-                                        authRoleArn: "arn:aws:iam::xxxxxxxxxxxx:role/speechtranslator-stack-AuthenticatedRole-AKHJBBDISDXQ",
+                                        identityPoolId: "us-west-2:6746051c-2b3f-4643-8af7-039293d2eff6",
+                                        unauthRoleArn: "arn:aws:iam::377687535663:role/speechtranslator-stack-UnAuthenticatedRole-RJV6IGHNS62W",
+                                        authRoleArn: "arn:aws:iam::377687535663:role/speechtranslator-stack-AuthenticatedRole-14EMQL97EHHS",
                                         identityProviderManager: nil)
         
         // ###Service Configuration###
